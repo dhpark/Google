@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*********** start of clone CSS ***********/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*********** top area ***********/
+.navbar {
+	position: absolute;
+	top:50px;
+	right:0px;
+	text-align: right;
+	font-size: 12;
+	color:black;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	background-color: none;
+}
+
+.grid{
+	height: 20px;
+}
+
+.logo{
+	height: 100px;
+	padding-bottom: 30px;
+	width: 100%;
+	margin-top: 170px;
+	text-align: center;
+}
+
+.logo img{
+	height:105px;
+	width:300px;
+
+}
+.search{
+	height: 40px;
+	text-align: center;
+	width:100%;
+	line-height: 40px;
+
+}
+.search img{
+	position: relative;
+	top:13px;
+	right: 42px;
+}
+.searchinput{
+	width:640px;
+	height:40px;
+	margin-top: 35px;
+	margin-left: 220px;
+}
+
+.searchinput img{
+	height:20px;
+	margin-right:500px;
+}
+
+.buttons{
+	height:35px;
+		line-height: 35px;
+	text-align: center;
+	
+
+}
+
+.searchbutton, .feelinlucky{
+	background-color: rgb(244,244,244);
+	border: 1px solid rgb(220, 220, 220);
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px 5px;
+	margin: 40px;
+	border-radius: 2px;
+	font-size: 12px;
+
+}button:hover {
+	box-shadow: 0px 1px 0px rgb(220,220,220)
+}
